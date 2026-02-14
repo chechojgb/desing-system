@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+@theme {
+  /* Colores de Zallar */
+  --color-zallar-purple: #AF6DD6;
+  --color-zallar-gold: #D6AF6D;
+  --color-zallar-aqua: #6DD6AF;
+  --color-zallar-dark: #1A1A1B;
+
+  /* Animaciones personalizadas */
+  --animate-float-slow: float 6s ease-in-out infinite;
+  --animate-float-delayed: float 8s ease-in-out infinite 1s;
+  --animate-shine: shine 0.8s forwards;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+
+  @keyframes shine {
+    100% { left: 125%; }
+  }
+}
