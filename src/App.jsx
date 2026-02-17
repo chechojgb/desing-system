@@ -11,6 +11,9 @@ import TextareasPage from './pages/TextareasPage';
 import SelectsPage from './pages/SelectsPage';
 import CheckboxesPage from './pages/CheckboxesPage';
 import BadgesPage from './pages/CheckboxesPage';
+import SwitchesPage from './pages/SwitchesPage';
+import SlidersPage from './pages/SlidersPage';
+import AvatarsPage from './pages/AvatarsPage';
 
 function App() {
   return (
@@ -26,7 +29,9 @@ function App() {
           <Route path="/componentes/selects" element={<SelectsPage />} />
           <Route path="/componentes/checkboxes" element={<CheckboxesPage />} />
           <Route path="/componentes/badges" element={<BadgesPage />} />
-          
+          <Route path="/componentes/toggles" element={<SwitchesPage />} />
+          <Route path="/componentes/sliders" element={<SlidersPage />} />
+          <Route path="/componentes/avatares" element={<AvatarsPage />} />
         </Routes>
         
       </Layout>

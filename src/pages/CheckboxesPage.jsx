@@ -21,7 +21,7 @@ const CheckboxesPage = () => {
       <ComponentShowcase 
         title="Selectores Atómicos"
         description="La base del sistema. Checkboxes en Púrpura Zallar y Radios en Dorado Zallar con efectos de iluminación."
-        color="#AF6DD6"
+        color="#D6AF6D"
         code={`{/* Checkbox Estándar */}
 <div className="w-6 h-6 border-2 border-white/20 rounded-lg bg-black/40 peer-checked:bg-[#AF6DD6] peer-checked:shadow-[0_0_20px_rgba(175,109,214,0.3)]">
   <Check className="scale-0 peer-checked:scale-100 transition-transform" />
@@ -62,7 +62,7 @@ const CheckboxesPage = () => {
       <ComponentShowcase 
         title="Bento Box Selection"
         description="Cuando la opción requiere contexto. Ideal para selección de módulos o configuraciones de seguridad."
-        color="#AF6DD6"
+        color="#D6AF6D"
         code={`<label className="p-6 bg-[#1A1A1B] border border-white/5 rounded-3xl peer-checked:border-[#AF6DD6] peer-checked:bg-[#AF6DD6]/5">
   {/* Estructura de tarjeta interactiva */}
 </label>`}
@@ -95,7 +95,7 @@ const CheckboxesPage = () => {
       <ComponentShowcase 
         title="Segmented Control"
         description="Perfecto para alternar entre estados excluyentes como periodos de facturación o vistas."
-        color="#6DD6AF"
+        color="#D6AF6D"
         code={`<div className="flex bg-black/60 p-1.5 rounded-2xl border border-white/10">
   {/* Label con fondo animado por peer-checked */}
 </div>`}
